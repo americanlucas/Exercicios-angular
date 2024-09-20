@@ -1,0 +1,53 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 350px;
+}
+
+.botoes button {
+    margin: 10px;
+    padding: 10px;
+}
+
+#butao{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 20px; */
+    width: 90px;
+    height: 33px;
+    border-color: blue;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+#butao:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+} 
+
+#tweet{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; 
+    width: 90px;
+    height: 33px;
+    border-color: rgb(13, 85, 124);
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+#tweet:hover{
+    cursor: pointer;
+    background-color: rgb(34, 161, 229);
+    color: white;
+} 
